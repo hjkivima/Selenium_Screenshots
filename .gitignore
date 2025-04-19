@@ -1,0 +1,22 @@
+/screenshots
+/screenshots_trimmed
+.
+*.pdf
+*.png
+###############################################################################
+# macOS system files
+###############################################################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*~
+__pycache__/
+.venv/
+.venv*/
+.vscode/*
