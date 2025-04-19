@@ -16,7 +16,8 @@ Automates capturing full‑page screenshots of a Qualtrics survey, trimming them
 
 ```bash
 
-# 0 Create a file called .env and add the public URL of your Qualtrics survey
+# 0 Create a file called .env and add the public URL of your Qualtrics survey in there, like this:
+# QUALTRICS_URL=https://umich.qualtrics.com/jfe/form/SV_xxxxxxxxxxx
 # Make sure this survey has no validation or force response requirements
 
 # 1 Create & activate a virtual environment
