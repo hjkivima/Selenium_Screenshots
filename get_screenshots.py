@@ -11,8 +11,12 @@ from selenium.common.exceptions import (
     StaleElementReferenceException,
     TimeoutException,
 )
+from dotenv import load_dotenv
+import os
 
-URL = ""  # Add here
+load_dotenv()
+URL = os.environ["QUALTRICS_URL"]  # unchanged
+
 DIR = Path("screenshots")
 TIMEOUT = 20
 DIR.mkdir(exist_ok=True)

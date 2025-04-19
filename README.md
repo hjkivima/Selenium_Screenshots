@@ -16,6 +16,9 @@ Automates capturing full‑page screenshots of a Qualtrics survey, trimming them
 
 ```bash
 
+# 0 Create a file called .env and add the public URL of your Qualtrics survey
+# Make sure this survey has no validation or force response requirements
+
 # 1 Create & activate a virtual environment
 python3 -m venv .venv      # use `python` if that's your default interpreter
 source .venv/bin/activate  # zsh/bash; Windows PowerShell: .venv\\Scripts\\Activate.ps1
