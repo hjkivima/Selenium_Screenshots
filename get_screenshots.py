@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-URL = os.environ["QUALTRICS_URL"]  # unchanged
+URL = os.environ["QUALTRICS_URL"]
 
 DIR = Path("screenshots")
 TIMEOUT = 20
